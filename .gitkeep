@@ -1,0 +1,6 @@
+New-Item data\interim\.gitkeep -ItemType File
+New-Item data\processed\.gitkeep -ItemType File
+New-Item results\figures\.gitkeep -ItemType File
+New-Item results\tables\.gitkeep -ItemType File
+New-Item results\reports\.gitkeep -ItemType File
+New-Item logs\.gitkeep -ItemType File
