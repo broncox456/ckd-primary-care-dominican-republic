@@ -2,7 +2,9 @@
 
 Real-world clinical and sociodemographic analysis of chronic kidney disease in primary care in the Dominican Republic
 
-![CKD classification distribution](./results/figures/ckd_classification_distribution.png)
+![Top localities](results/figures/top_localities_main_cohort.png)
+
+![Educational level](results/figures/educational_level_subcohort.png)
 
 ---
 
