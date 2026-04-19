@@ -1,10 +1,9 @@
-# Peravia CKD Epidemiology
+﻿# CKD in Dominican Republic Primary Care: Epidemiology and Social Determinants
 
 Real-world clinical and sociodemographic analysis of chronic kidney disease in primary care in the Dominican Republic
 
 ![Top localities](results/figures/top_localities_main_cohort.png)
 
-![Educational level](results/figures/educational_level_subcohort.png)
 
 ---
 
@@ -174,18 +173,33 @@ It also shows that:
 
 ## Reproducibility
 
-Repository structure:
+### Requirements
 
-* `data/`
-* `docs/`
-* `notebooks/`
-* `scripts/`
-* `results/figures/`
-* `results/tables/`
-* `results/reports/`
+```bash
+pip install -r requirements.txt
 
-Main outputs include descriptive tables, epidemiological figures, and linked-subcohort summaries.
+## Execution Order: 
 
+-python scripts/01_data_audit.py
+-python scripts/02_clean_unaps.py
+-python scripts/03_clean_sociodemographic.py
+-python scripts/04_build_subcohort.py
+-python scripts/05_descriptive_analysis.py
+-python scripts/06_generate_figures.py
+
+## Main outputs :
+
+-Clinical summary: results/tables/clinical_summary.csv
+-CKD distribution: results/tables/ckd_distribution.csv
+-Linked subcohort summary: results/tables/subcohort_summary_clean.csv
+-Quality flags: results/tables/subcohort_with_quality_flags.csv
+-Figures: results/figures/
+-Reports: results/reports/
+ 
+## Notes :
+
+This repository preserves the distinction between the main clinical cohort and the linked sociodemographic subcohort.
+The analysis prioritizes methodological transparency over forced dataset harmonization.
 ---
 
 ## Author
@@ -193,3 +207,8 @@ Main outputs include descriptive tables, epidemiological figures, and linked-sub
 Cristian Arias, MD
 Nephrologist | Internal Medicine Specialist
 Healthcare Data Science & Bioinformatics
+
+
+
+
+
