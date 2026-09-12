@@ -211,6 +211,6 @@ The analysis prioritizes methodological transparency over forced dataset harmoni
 
 ## Author
 
-**Cristian Arias Ramírez, MD, MSc** — Nephrologist & Internal Medicine Specialist · MSc Bioinformatics and Precision Medicine (Universidad Alfonso X el Sabio, 2026)
+**Cristian Arias Ramírez, MD, MSc** — Nephrologist & Internal Medicine Specialist · MSc in Bioinformatics, Universidad Alfonso X el Sabio (2026)
 
 [LinkedIn](https://www.linkedin.com/in/cristian-arias-healthcare-data/) · [Full portfolio](https://github.com/broncox456)
