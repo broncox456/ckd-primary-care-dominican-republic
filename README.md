@@ -200,15 +200,17 @@ pip install -r requirements.txt
 
 This repository preserves the distinction between the main clinical cohort and the linked sociodemographic subcohort.
 The analysis prioritizes methodological transparency over forced dataset harmonization.
+
 ---
+
+## Scope and Disclaimer
+
+**Status:** cross-sectional descriptive epidemiological study — hypothesis-generating. Not a validated clinical tool, not a medical device, no regulatory clearance. Results must not be used for patient-level decisions. Manuscript in preparation.
+
+**Data provenance:** de-identified real-world data collected during a CKD screening initiative in primary care (UNAPS), Peravia, Dominican Republic. No identifiable patient data are published in this repository.
 
 ## Author
 
-Cristian Arias, MD
-Nephrologist | Internal Medicine Specialist
-Healthcare Data Science & Bioinformatics
+**Cristian Arias Ramírez, MD, MSc** — Nephrologist & Internal Medicine Specialist · MSc Bioinformatics and Precision Medicine (Universidad Alfonso X el Sabio, 2026)
 
-
-
-
-
+[LinkedIn](https://www.linkedin.com/in/cristian-arias-healthcare-data/) · [Full portfolio](https://github.com/broncox456)
